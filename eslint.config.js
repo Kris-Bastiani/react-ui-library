@@ -1,7 +1,9 @@
 import config from '@kris-bastiani/configs/eslint/react-ts';
+import storybook from 'eslint-plugin-storybook';
 
 export default [
 	...config,
+	...storybook.configs['flat/recommended'],
 	{
 		rules: {
 			'import/no-absolute-path': 'off',
