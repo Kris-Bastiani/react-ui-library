@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import {
 	dirname,
 	extname,
@@ -52,5 +53,8 @@ export default defineConfig({
 			'@lib': resolve(__dirname, 'lib'),
 			'@src': resolve(__dirname, 'src'),
 		},
+	},
+	test: {
+		reporters: ['verbose'],
 	},
 });
