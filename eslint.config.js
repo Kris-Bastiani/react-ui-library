@@ -21,7 +21,7 @@ export default [
 		},
 	},
 	{
-		files: ['eslint.config.js', 'vite.config.ts', '**/*.test.{ts,tsx}'],
+		files: ['eslint.config.js', 'vite.config.ts', '**/*.stories.{ts,tsx}', '**/*.test.{ts,tsx}'],
 		rules: {
 			'import/no-extraneous-dependencies': 'off',
 		},
